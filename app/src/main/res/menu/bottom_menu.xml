@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home_icon"
+        android:title="Home"
+        app:cnb_backgroundColor="#BA68C8"
+        app:cnb_iconColor="#ffffff"
+        app:cnb_textColor="#ffffff"
+        />
+
+    <item
+        android:id="@+id/firstFragment"
+        android:icon="@drawable/ic_notifications_icon"
+        android:title="Requests"
+        app:cnb_backgroundColor="#BA68C8"
+        app:cnb_iconColor="#ffffff"
+        app:cnb_textColor="#ffffff" />
+
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/ic_bell_icon"
+        android:title="Notifications"
+        app:cnb_backgroundColor="#BA68C8"
+        app:cnb_iconColor="#ffffff"
+        app:cnb_textColor="#ffffff" />
+
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"
+        app:cnb_backgroundColor="#BA68C8"
+        app:cnb_iconColor="#ffffff"
+        app:cnb_textColor="#ffffff" />
+
+</menu>

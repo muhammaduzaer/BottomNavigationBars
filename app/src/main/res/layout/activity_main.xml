@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <FrameLayout
+        android:id="@+id/textViewExampleOne"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:background="@color/teal_200"
+        android:paddingVertical="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Example One"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/textViewExampleTwo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:background="@color/teal_200"
+        android:paddingVertical="10dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Example Two"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+    </FrameLayout>
+
+</LinearLayout>
